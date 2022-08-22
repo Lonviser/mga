@@ -29,7 +29,7 @@ get_header();
                     </div>
                     <div class="document-spoiler">
                         <div class="doc-download">
-                        <a href="<?php the_field('link1');?>"><p class="doc-name"><?php the_field('txt1');?></p></a>
+                        <a target="_blank" href="<?php the_field('link1');?>"><p class="doc-name"><?php the_field('txt1');?></p></a>
                             <div class="open-save">
                                 <a href="<?php the_field('link1');?>"download><img src="<?php echo bloginfo('template_url');?>/assets/img/save.svg" alt=""></a>
                                 <a href="<?php the_field('link1');?>"target="_blank" ><img src="<?php echo bloginfo('template_url');?>/assets/img/open.svg" alt=""></a>
@@ -44,7 +44,7 @@ get_header();
                     </div>
                     <div class="document-spoiler">
                         <div class="doc-download">
-                        <a href="<?php the_field('link2');?>"><p class="doc-name"><?php the_field('txt2');?></p></a>
+                        <a target="_blank"  href="<?php the_field('link2');?>"><p class="doc-name"><?php the_field('txt2');?></p></a>
                             <div class="open-save">
                                 <a href="<?php the_field('link2');?>"download><img src="<?php echo bloginfo('template_url');?>/assets/img/save.svg" alt=""></a>
                                 <a href="<?php the_field('link2');?>"target="_blank" ><img src="<?php echo bloginfo('template_url');?>/assets/img/open.svg" alt=""></a>
@@ -59,7 +59,7 @@ get_header();
                     </div>
                     <div class="document-spoiler">
                         <div class="doc-download">
-                        <a href="<?php the_field('link3');?>"><p class="doc-name"><?php the_field('txt3');?></p></a>
+                        <a target="_blank" href="<?php the_field('link3');?>"><p class="doc-name"><?php the_field('txt3');?></p></a>
                             <div class="open-save">
                                 <a href="<?php the_field('link3');?>"download><img src="<?php echo bloginfo('template_url');?>/assets/img/save.svg" alt=""></a>
                                 <a href="<?php the_field('link3');?>"target="_blank" ><img src="<?php echo bloginfo('template_url');?>/assets/img/open.svg" alt=""></a>
@@ -74,7 +74,7 @@ get_header();
                     </div>
                     <div class="document-spoiler">
                         <div class="doc-download">
-                        <a href=""><p class="doc-name"><?php the_field('txt4');?></p></a>
+                        <a target="_blank" href=""><p class="doc-name"><?php the_field('txt4');?></p></a>
                             <div class="open-save">
                                 <a href="<?php the_field('link4');?>"download><img src="<?php echo bloginfo('template_url');?>/assets/img/save.svg" alt=""></a>
                                 <a href="<?php the_field('link4');?>"target="_blank" ><img src="<?php echo bloginfo('template_url');?>/assets/img/open.svg" alt=""></a>

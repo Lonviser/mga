@@ -81,10 +81,10 @@ get_header();
               <h4 class="title">Трансляции MGA</h4>
             </div>
             <div class="twich-translation">
-              <a target="_blank" href="https://www.twitch.tv/gmafamily"> <img class="twitch-block" src="<?php echo bloginfo('template_url');?>/assets/img/twich1.png" alt=""></a>
-              <a target="_blank" href="https://www.twitch.tv/gmafamily"> <img class="twitch-block" src="<?php echo bloginfo('template_url');?>/assets/img/twich2.png" alt=""></a>
-              <a target="_blank" href="https://www.twitch.tv/gmafamily"> <img class="twitch-block" src="<?php echo bloginfo('template_url');?>/assets/img/twich3.png" alt=""></a>
-              <a target="_blank" href="https://www.twitch.tv/gmafamily"> <img class="twitch-block" src="<?php echo bloginfo('template_url');?>/assets/img/twich4.png" alt=""></a>
+              <div class="mafia-block"><a target="_blank" href="https://www.twitch.tv/gmafamily"> <img class="twitch-block" src="<?php echo bloginfo('template_url');?>/assets/img/twich1.png" alt=""></a></div>
+              <div  class="mafia-block"><a target="_blank" href="https://www.twitch.tv/gmafamily"> <img class="twitch-block" src="<?php echo bloginfo('template_url');?>/assets/img/twich2.png" alt=""></a></div>
+              <div  class="mafia-block"><a target="_blank" href="https://www.twitch.tv/gmafamily"> <img class="twitch-block" src="<?php echo bloginfo('template_url');?>/assets/img/twich3.png" alt=""></a></div>
+              <div  class="mafia-block"><a target="_blank" href="https://www.twitch.tv/gmafamily"> <img class="twitch-block" src="<?php echo bloginfo('template_url');?>/assets/img/twich4.png" alt=""></a></div>
             </div>
           </section>
           <section class="our_partners"> 
