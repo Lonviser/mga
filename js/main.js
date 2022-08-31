@@ -1,3 +1,22 @@
+
+jQuery('.control').on('click', function() {
+  jQuery(this).toggleClass('pause play');
+});
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
 jQuery(function() {
     let header = jQuery('.header');
      
@@ -95,4 +114,19 @@ jQuery(function() {
     // инициируем изменение элементов в списке городов, в зависимости от текущей страны
     MkHouseValues(document.forms["address"].elements["area"].selectedIndex);
 
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
 

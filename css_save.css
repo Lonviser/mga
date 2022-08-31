@@ -313,7 +313,7 @@ h2.entry-title {
  
    background: #0C2231;
    color: #000;
-   height: 120px;
+   height: 129px;
    z-index: 1000;
    display: flex;
  }
@@ -575,10 +575,6 @@ h2.entry-title {
 	 font-size: 14px;
 	 color: #0C2231;
    }
-   img.twitch-block{
-    width: 100%;
-    height: 100%;
-   }
    .club-info{
 	 font-weight: 400;
 	 font-size: 14px;
@@ -649,13 +645,7 @@ h2.entry-title {
   .partner{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 5px;
-   
-    }
-    @media(max-width:1440px){
-      .partner{
-        width: 13vw;
-      }
-    }
+  }
   .partner:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     transition: 0.5s;
@@ -1299,18 +1289,14 @@ a.page-numbers {
       -ms-flex-align: center;
           align-items: center;
 }
+  @media (max-width:1360px) {
+    .twich-translation{
+      grid-template-columns: 1fr ;
+    }
+  }
+
 
    @media (max-width:1200px) {
-    .main-info{
-      line-height: 20px;
-      font-size: 16px;
-    }
-    .new-player{
-      font-size: 16px;
-    }
-    .about{
-      column-gap:10px;
-    }
      .documents{
        flex-direction: column;
      }
@@ -1320,7 +1306,10 @@ a.page-numbers {
      input#is-search-input-160{
       width: auto;
      }
-
+	 .about{
+	   flex-direction: column;
+	   grid-gap: 20px;
+	 }
 	 .banner{
 	   padding: 0;
 	 }
@@ -1336,31 +1325,15 @@ a.page-numbers {
 
    }
    @media (max-width:1100px){
-    .main-info{
-      font-size: 14px;
-    }
-    .new-player{
-      font-size: 14px;
-    }
     .hot-blocks{
       grid-template-columns: 1fr 1fr;
       justify-items: center
     }
    }
-   @media(max-width:1023px){
-    .about{
-      flex-direction: column;
-      grid-gap:20px;
-    }
-
-   }
    @media (max-width:1000px){
 	 .club{
 	   width: 100%;
 	 }
-   .partner{
-    width: 12vw;
-   }
    .blocks{
     grid-template-columns: 1fr 1fr;
   }
@@ -1368,6 +1341,7 @@ a.page-numbers {
 	  grid-template-columns: 1fr 1fr;
     padding-bottom: 20px;
     grid-gap:10px;
+    justify-items: normal;
 	 }
    .footer{
     width: 100%;
@@ -1482,9 +1456,6 @@ a.page-numbers {
 
  
    @media (max-width: 768px) {
-    .partner{
-      width: 25vw;
-    }
     .avatar{
       padding: 0;
     }
@@ -1546,17 +1517,11 @@ a.page-numbers {
   }
    @media  (max-width:576px) 
    {
-    .twich-translation{
-      grid-template-columns: 1fr ;
-    }
     .blocks{
       grid-template-columns: 1fr;
     }
     .doc-name{
       font-size: 14px;
-    }
-    .partner{
-      width: 100%;
     }
    }
    @media  (max-width:500px) {

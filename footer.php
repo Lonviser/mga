@@ -40,7 +40,7 @@
             </div>
             <div class="news-gen-cab menu-line-height2">
             <a href="/novosti/"><h4 class="white menu-title">Новости</h4></a>
-            <a class="popup-with-form" href="#test-form" mb-checked="1" data-tip=""><h4 class="white">Генератор игр</h4></a>
+            <a  href="/generator-igr/"><h4 class="white">Генератор игр</h4></a>
             <a href="/profile"><h4 class="white">Личный кабинет</h4></a>
               <?php get_search_form(); ?>
             </div>   

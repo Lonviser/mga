@@ -22,10 +22,11 @@ get_header();
     </div>
     <div class="games">
         <div class="clubgame_play">
-            Создать клубную игру
+            <a class="game-link" href="/sozdanie-klubnoj-igry/">Создать <br> клубную игру</a>
+            
         </div>
         <div class="tournamentgame_play">
-         Создать турнир
+            <a class="game-link" href="">Создать турнир</a>
         </div>
     </div>
  </div>
