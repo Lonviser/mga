@@ -1755,9 +1755,6 @@ a.page-numbers {
   display: flex;
 }
 
-/* Генератор игр */
-
-
 @media (max-width: 1440px) {
   .navbar-container .hamburger-lines {
     left: 10px;
