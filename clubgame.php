@@ -39,8 +39,11 @@ get_header();
         </div>
         <button type="submit" class="button">Редактировать</button>
      </div>
-     <hr class="game_line">
 
+     <div id="like_button_container"></div>
+
+
+     <hr class="game_line">
         <button class="accordion">Игра №1</button>
         <div class="panel">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

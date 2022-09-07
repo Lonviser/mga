@@ -38,7 +38,7 @@
                     <li>
                       <div>
                         <div class="spoiler-title">
-                        <p class="about-btn">О нас</p>
+                        <p class="about-btn">О НАС</p>
                          <img src="<?php echo bloginfo('template_url');?>/assets/img/galochka.svg" alt="">
                         </div> 
                       <div class="spoiler">
@@ -50,12 +50,12 @@
                       </div>
                     </div>
                   </li>
-                    <li><a class="popup-with-form" href="#test-form" mb-checked="1" data-tip=""><p class="white">Турниры</p> </a></li>
-                    <li><a class="popup-with-form" href="#test-form" mb-checked="1" data-tip=""><p class="white">Рейтинг</p> </a></li>
-                    <li><a href="/dokumenty/"><p class="white">Документы</p> </a></li>
-                    <li><a href="/novosti/"><p class="white">Новости</p> </a></li>
+                    <li><a class="popup-with-form" href="#test-form" mb-checked="1" data-tip=""><p class="white">ТУРНИРЫ</p> </a></li>
+                    <li><a class="popup-with-form" href="#test-form" mb-checked="1" data-tip=""><p class="white">РЕЙТИНГ</p> </a></li>
+                    <li><a href="/dokumenty/"><p class="white">ДОКУМЕНТЫ</p> </a></li>
+                    <li><a href="/novosti/"><p class="white">НОВОСТИ</p> </a></li>
                     <li>
-                      <p class="white">Мы в соц сетях:</p>
+                      <p class="white">Мы в социальных сетях:</p>
                     </li>
                     <li>
                       <div class="social-networks">
@@ -76,34 +76,7 @@
   <div class="dropdown user" >
   <a class="popup-with-form" href="#test-form" mb-checked="1" data-tip=""> 
   <p class="dropbtn">
-  
-  
-
-<img style="  <?php
-   $link=mysqli_connect("localhost", "studi181_mgadb", "*SkF3Ey9PCiu1Pn1", "studi181_mgadb");
-
-  if (isset($_COOKIE['id']) and isset($_COOKIE['hash']))
-  {
-      $query = mysqli_query($link, "SELECT *,INET_NTOA(user_ip) AS user_ip FROM users WHERE user_id = '".intval($_COOKIE['id'])."' LIMIT 1");
-      $userdata = mysqli_fetch_assoc($query);
-  
-      if(($userdata['user_hash'] !== $_COOKIE['hash']) or ($userdata['user_id'] !== $_COOKIE['id'])
-   or (($userdata['user_ip'] !== $_SERVER['REMOTE_ADDR'])  and ($userdata['user_ip'] !== "0")))
-      {
-          setcookie("id", "", time() - 3600*24*30*12, "/");
-          setcookie("hash", "", time() - 3600*24*30*12, "/", null, null, true); // httponly !!!
-          print "Хм, что-то не получилось";
-      }
-      else
-      {
-         
-      }
-  }
-  else
-  {
-      print "display:none";
-  }
-?>" class="arrow-user" src="<?php echo bloginfo('template_url');?>/assets/img/galochka.svg" alt="">
+  ЛИЧНЫЙ КАБИНЕТ
 </p>
 
   <div class="dropdown-content" style="display:none">

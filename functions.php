@@ -17,6 +17,8 @@ function crea_load_scripts()
   // подключаем скрипт modernizr.js в <head>
   wp_enqueue_script('modernizr-js', get_template_directory_uri() . '/js/main.js', array('jquery'), NULL, true);
   wp_enqueue_script('modernizr', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array('jquery'), NULL, true);
+  wp_enqueue_script('react-component', get_template_directory_uri() . '/components/like_button.js', array('jquery'), NULL, true);
+
 }
  
 add_action( 'wp_enqueue_scripts', 'true_stili_frontend', 25 );
@@ -198,3 +200,4 @@ if ( function_exists( 'add_theme_support' ) ) {
 add_theme_support( 'post-thumbnails' );
 set_post_thumbnail_size( 260, 180 );
 }
+
