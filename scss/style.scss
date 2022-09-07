@@ -1341,6 +1341,13 @@ a.page-numbers {
   align-content:center;
   justify-content: center;
 }
+.clubgame_play:hover{
+  background: #0C2231;
+  transition: 0.3s all;
+  .game-link{
+    color: #FFFFFF;
+  }
+}
 
 .tournamentgame_play {
   width: 400px;
@@ -1352,7 +1359,13 @@ a.page-numbers {
   align-content:center;
   justify-content: center;
 }
-
+.tournamentgame_play:hover{
+  background: #0C2231;
+  transition: 0.3s all;
+  .game-link{
+    color: #FFFFFF;
+  }
+}
 .game-link{
   font-family: 'Comfortaa';
   font-style: normal;
@@ -1647,6 +1660,18 @@ a.page-numbers {
     }
    }
    @media  (max-width:500px) {
+
+    .games{
+      flex-direction: column;
+      align-items: center;
+      grid-gap: 50px
+    }
+    .clubgame_play{
+      width: 90%;
+    }
+    .tournamentgame_play{
+      width: 90%;
+    }
     .logo{
       display: none;
     }

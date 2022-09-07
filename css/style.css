@@ -1812,6 +1812,16 @@ a.page-numbers {
           justify-content: center;
 }
 
+.clubgame_play:hover {
+  background: #0C2231;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.clubgame_play:hover .game-link {
+  color: #FFFFFF;
+}
+
 .tournamentgame_play {
   width: 400px;
   height: 150px;
@@ -1828,6 +1838,16 @@ a.page-numbers {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.tournamentgame_play:hover {
+  background: #0C2231;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.tournamentgame_play:hover .game-link {
+  color: #FFFFFF;
 }
 
 .game-link {
@@ -2164,6 +2184,22 @@ h2.tac.mb10 {
   }
 }
 @media (max-width: 500px) {
+  .games {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    grid-gap: 50px;
+  }
+  .clubgame_play {
+    width: 90%;
+  }
+  .tournamentgame_play {
+    width: 90%;
+  }
   .logo {
     display: none;
   }
