@@ -25,6 +25,7 @@ add_action( 'wp_enqueue_scripts', 'true_stili_frontend', 25 );
  
 function true_stili_frontend() {
  	wp_enqueue_style( 'true_stili', get_stylesheet_directory_uri() . '/assets/css/magnific-popup.css' );
+	wp_enqueue_style( 'sass_code', get_stylesheet_directory_uri() . '/css/style.css' );
 }
 add_action('wp_enqueue_scripts', 'crea_load_scripts', 10);
 

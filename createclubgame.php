@@ -22,7 +22,7 @@ get_header();
         </div>
      <h5 class="generator_h5">Создание клубной игры</h5>
      <div class="newProtocol">
-            <div>
+            <div class="club-block">
                 <span class="protocol-txt">Выберите клуб</span>
                 <select class="choise_club" name="" id=""></select>
             </div>

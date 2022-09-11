@@ -26,7 +26,7 @@ get_header();
             
         </div>
         <div class="tournamentgame_play">
-            <a class="game-link" href="">Создать турнир</a>
+            <a class="game-link" href="/sozdanie-klubnoj-igry/">Создать турнир</a>
         </div>
     </div>
  </div>

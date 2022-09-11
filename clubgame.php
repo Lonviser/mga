@@ -37,40 +37,159 @@ get_header();
                 <div>1</div>
             </div>
         </div>
-        <button type="submit" class="button">Редактировать</button>
      </div>
 
      <div id="like_button_container"></div>
 
 
      <hr class="game_line">
-        <button class="accordion">Игра №1</button>
-        <div class="panel">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
 
-        <div class="action-zone">
-            <div class="time-game-zone">
-                <div class="timer">
-                    <div class="timer-count">
+        <div class="game-board">
+            <div class="status-bar">
+                <div>Игра №1</div>
+                <div class="win">
+                    Победа
+                    <input type="text">
+                </div>
+                <div class="meta-info">
+                    <div class="pu">
+                         ПУ
+                        <input type="text" class="pu-input">
+                    </div>
+                    <div class="lh">
+                        ЛХ
+                        <input type="text" class="lh-input">
+                        <input type="text" class="lh-input">
+                        <input type="text" class="lh-input">
+                    </div>
+                    <div>
+                        <img src="./assets/img/up2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="game-panel">
+                <div class="control-line">
+                    <div class="timer-zone">
                         1:00
                     </div>
-                    <div class="control play">
-                        <span class="left"></span>
-                        <span class="right"></span>
+                    <div class="day_and_night">
+                        <div class="day">
+                            <button type="submit" class="button">Фаза </br> День</button>
+                        </div>
+                        <div class="night">
+                             <button type="submit" class="button">Фаза </br> Ночь</button>
+                        </div>
                     </div>
-            </div>
-            <div class="day_and_night">
-                <div class="day">
-                    <button type="submit" class="button">Фаза день</button>
+                    <div class="game_result">
+                        <div class="result">Итог <br> игры</div>
+                        <div class="teams">
+                            <div>Мирные</div>
+                            <div>Мафия</div>
+                        </div>
+                        <div class="draw">
+                            Ничья
+                        </div>
+                        <div class="ppk">
+                            ППК
+                        </div>
+                        <div class="teams">
+                            <div>Мирные</div>
+                            <div>Мафия</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="night">
-                    <button type="submit" class="button">Фаза ночь</button>
+
+                <div class="table-grid">
+                    <div class="player_id">
+                        <input type="text" value = 1>
+                        <input type="text" value = 2>
+                        <input type="text" value = 3>
+                        <input type="text" value = 4>
+                        <input type="text" value = 5>
+                        <input type="text" value = 6>
+                        <input type="text" value = 7>
+                        <input type="text" value = 8>
+                        <input type="text" value = 9>
+                        <input type="text" value = 10>
+                    </div>
+                    <div class="player_name">
+                        <input type="text" >
+                        <input type="text" >
+                        <input type="text" >
+                        <input type="text" >
+                        <input type="text" >
+                        <input type="text" >
+                        <input type="text" >
+                        <input type="text" >
+                        <input type="text" >
+                        <input type="text" >
+                    </div>
+                    <div class="falls">
+                    <div class="fall">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="fall"><input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="fall">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="fall">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="fall">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="fall">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="fall">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="fall">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="fall">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="fall">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </div>
                 </div>
+                </div>
+               
             </div>
-            </div>
-        </div>
             
+        </div>            
  </div>
 </main>
 

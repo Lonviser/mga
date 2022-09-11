@@ -65,6 +65,7 @@ Text Domain: mgafamily.by
  }
  body{
    height: 100%;
+   font-family: 'Comfortaa';
  }
  .wrapper{
    height: 100%;
@@ -1377,6 +1378,329 @@ a.page-numbers {
 
 }
 
+  .generator_h5{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0C2231;
+  }
+  .protocol-txt{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0C2231;
+  }
+  
+  .protocol-txt{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0C2231;
+  }
+  .date-block{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .newProtocol_btn{
+      font-family: 'Comfortaa';
+      background: #0C2231;
+      border-radius: 5px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      color: #FFFFFF;
+      width: 281.05px;
+      height: 45px;
+  }
+  
+  .newProtocol{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-top: 21px;
+  }
+  .date {
+    padding-top: 1vw;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border: 0;
+    resize: none;
+    width: 14.38vw;
+    text-align: center;
+    height: 3.13vw;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1E1E1E;
+    max-width: 205px;
+    max-height: 45px;
+  }
+  
+  .count_table {
+    background: #E5E5E5;
+    border-radius: 5px;
+    border: 0;
+    width: 14.38vw;
+    height: 3.13vw;
+    max-width: 207px;
+    max-height: 45px;
+  }
+  .newProtocol_btn-position{
+    margin-bottom: 311px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .choise_club{
+    width: 28vw;
+    max-width: 492px;
+    height: 3.13vw;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border:0;
+    max-height: 45px;
+  }
+
+  .table-block{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+  .club-block{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .win{
+    display: flex;
+    column-gap:18px;
+    input{
+      border-top: 0;
+      border-right: 0;
+      border-left: 0;
+      border-bottom: 1px solid #D9D9D9;
+    }
+  }
+  .result{
+    background: #D9D9D9;
+  }
+  .game_meta{
+    display: flex;
+    column-gap: 70px;
+  }
+
+  .club_name{
+    display: flex;
+    column-gap: 19px;
+  }
+  .game_date{
+    display: flex;
+    column-gap: 70px;
+  }
+  .game_table{
+    display: flex;
+  }
+  .pu-input{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background:#F3F3F3;
+    text-align: center;
+    border:0;
+  }
+  .pu{
+    display: flex;
+    column-gap:15px;
+    align-items: center;
+  }
+  .lh{
+    display: flex;
+    column-gap:10px;
+    align-items: center;
+  }
+  .lh-input{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background:#F3F3F3;
+    text-align: center;
+    border:0;
+  }
+  .game-board{
+    border: 1px solid #0C2231;
+    margin-top: 1.39vw;
+    margin-bottom: 1.39vw;
+    border-radius: 5px;
+  }
+  .status-bar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-bottom: 1px solid #0C2231;
+
+  }
+  .meta-info{
+    display: flex;
+    column-gap:45px;
+  }
+  .game-panel{
+    background: #F3F3F3;
+    height:875px;
+    padding-top: 36px;
+  }
+
+  .control-line{
+    display: flex;
+    height: 79px;
+    padding-left: 52px;
+    padding-right: 52px;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .timer-zone{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    color: #0C2231;
+    margin-right: 105px;
+  }
+  .day_and_night{
+    display: flex;
+    column-gap:24px;
+    button{
+      width: 160px;
+      height: 79px;
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 20px;
+      text-align: center;
+    }
+  }
+  .day{
+    button{
+      background: #FFFFFF;
+      color: #0C2231;
+    }
+
+  }
+  .night{
+    button{
+      background: #0C2231;
+      color:  #FFFFFF;
+    }
+  }
+  .game_result{
+    display: flex;
+    border: 1px solid #0C2231;
+    border-radius: 5px 0px 0px 5px;
+    height: 100%;
+  }
+
+  .result{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #0C2231;
+  }
+
+  .teams{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #0C2231;
+  }
+
+  .draw{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #0C2231;
+  }
+  
+  .ppk{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #0C2231;
+  }
+
+  .table-grid{
+    padding-left: 52px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 20px;
+  }
+  .player_id{
+    display: grid;
+    grid-template-columns: 50px;
+    grid-gap:5px;
+    input{
+      width: 50px;
+      height: 40px;
+      background: #FFFFFF;
+      border: 1px solid #D9D9D9;
+      border-radius: 5px;
+      text-align: center;
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 20px;
+      color: #0C2231;
+    }
+  }
+
+  .player_name{
+    display: grid;
+    grid-template-columns: 450px;
+    
+    grid-gap:5px;
+    input{
+      height: 40px;
+      background: #FFFFFF;
+      border: 1px solid #D9D9D9;
+      border-radius: 5px;
+    }
+  }
+
+  .fall{
+    input{
+      width: 40px;
+      height: 40px;
+      border: 1px solid #D9D9D9;
+      border-radius: 5px;
+    }
+  }
+
   @media(max-width:1300px){
     .main-info{
       line-height: 20px;
@@ -1385,7 +1709,12 @@ a.page-numbers {
     .new-player{
       font-size: 17px;
     }
-
+    .protocol-txt{
+      font-size: 14px;
+    }
+    .date{
+      font-size: 14px;
+    }
   }
    @media (max-width:1200px) {
     .main-info{
@@ -1490,7 +1819,36 @@ a.page-numbers {
     flex-direction: column;
     justify-content: space-between;
   }
+  .newProtocol{
+    flex-direction: column;
+    grid-gap:20px;
+  }
+  .newProtocol_btn-position{
+    justify-content: center;
+  }
+  .choise_club{
+    width: 400px;
+    height:40px;
+  }
+  .date{
+    width: 400px;
+    height:40px;
+  }
+  .count_table{
+    width: 400px;
+    height:40px;
+  }
+  .date-block{
+    justify-content: space-between;
+
+  }
+  .table-block {
+    justify-content: space-between;
    }
+   .club-block{
+    justify-content: space-between;
+   }
+  }
    @media (max-width:900px) {
 	 
 	 .partners{
@@ -1643,6 +2001,15 @@ a.page-numbers {
      .menu-line-height{
       margin: 0;
      }
+     .choise_club{
+      width: 200px;
+    }
+    .date{
+      width: 200px;
+    }
+    .count_table{
+      width: 200px;
+    }
   }
    @media  (max-width:576px) 
    {
@@ -1759,6 +2126,15 @@ a.page-numbers {
    }
    .profile-block {
     height: 850px;
+}
+.choise_club{
+  width: 100px;
+}
+.date{
+  width: 100px;
+}
+.count_table{
+  width: 100px;
 }
   }
 
