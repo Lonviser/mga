@@ -40,7 +40,7 @@ get_header();
      </div>
 
      <div id="like_button_container"></div>
-
+    <div id="data"></div>
 
      <hr class="game_line">
 
@@ -98,7 +98,17 @@ get_header();
                         </div>
                     </div>
                 </div>
-
+                <div class="table-name">
+                    <div class="table_id">
+                        №
+                    </div>
+                    <div class="game_nick">
+                        Игровой ник
+                    </div>
+                    <div class="table_falls">
+                        Фолы
+                    </div>
+                </div>
                 <div class="table-grid">
                     <div class="player_id">
                         <input type="text" value = 1>
@@ -185,11 +195,80 @@ get_header();
                         <input type="checkbox" name="" id="">
                     </div>
                 </div>
+                <div>
+                    <img src="./assets/img/players.svg" alt="">
                 </div>
-               
-            </div>
-            
-        </div>            
+                </div>
+                <div class="delete_player">
+                    <div>
+                         Удаление <br> игроков
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №1
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №2
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №3
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №4
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №5
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №6
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №7
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №8
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №9
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="del-player">
+                        <div>
+                            №10
+                        </div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                </div>
+            </div>            
+        </div>  
+
+        <button type="submit"  class="add_game_btn">+</button> <span>Добавить игру</span>
+        
  </div>
 </main>
 

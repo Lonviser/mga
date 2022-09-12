@@ -18,7 +18,7 @@ function crea_load_scripts()
   wp_enqueue_script('modernizr-js', get_template_directory_uri() . '/js/main.js', array('jquery'), NULL, true);
   wp_enqueue_script('modernizr', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array('jquery'), NULL, true);
   wp_enqueue_script('react-component', get_template_directory_uri() . '/components/like_button.js', array('jquery'), NULL, true);
-
+  wp_enqueue_script('react-app', get_template_directory_uri() . '/components/app', array('jquery'), NULL, true);
 }
  
 add_action( 'wp_enqueue_scripts', 'true_stili_frontend', 25 );
